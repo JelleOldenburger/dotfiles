@@ -95,5 +95,5 @@ alias config='/usr/bin/git --git-dir=$HOME/dotfiles/ --work-tree=$HOME'
 
 ### PROMPT ###
 
-#eval "$(starship init zsh)"
+eval "$(starship init bash)"
 
