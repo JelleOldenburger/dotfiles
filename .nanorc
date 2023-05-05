@@ -1,0 +1,58 @@
+include /usr/share/nano-syntax-highlighting/*.nanorc
+
+## Ctrl+Right puts cursor at the end of a word
+set afterends
+
+## Enable soft line wrapping (AKA full-line display).
+set softwrap
+
+## Lines wrap at blanks (tabs and spaces)
+set atblanks
+
+## Punctuation are part of words (impacts where lines wrap)
+set wordbounds
+
+## Use this tab size instead of the default; it must be greater than 0.
+set tabsize 4
+
+## Indents line if previous line is indented
+set autoindent
+
+## Display line numbers to the left of the text.
+set linenumbers
+
+## Enable mouse support
+set mouse
+
+## Remember the cursor position in each file for the next editing session.
+set positionlog
+
+## Status-bar messages will disappear after 1 keystroke instead of 26.
+set quickblank
+
+## Removes the marked text (instead of a single character)
+set zap
+
+## Set custom keybinding
+bind ^S savefile main
+bind ^H help all
+bind ^F whereis all
+bind ^R replace main
+bind ^C copy main
+bind ^V paste all
+bind ^Z undo main
+bind ^Y redo main
+unbind ^J all
+unbind F4 all
+unbind ^T all
+unbind F11 all
+unbind F12 all
+
+set titlecolor brightwhite,blue
+set statuscolor brightwhite,green
+set errorcolor brightwhite,red
+set selectedcolor brightwhite,magenta
+set stripecolor ,yellow
+set numbercolor cyan
+set keycolor cyan
+set functioncolor green
