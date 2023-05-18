@@ -70,6 +70,8 @@ alias hw="hwinfo --short"
 # Dotfiles
 alias config='/usr/bin/git --git-dir=$HOME/dotfiles/ --work-tree=$HOME'
 
+alias note='nano --operatingdir=$HOME/Documents'
+
 ### Prompt ###
 
 eval "$(starship init zsh)"

@@ -93,6 +93,8 @@ alias hw="hwinfo --short"
 
 alias config='/usr/bin/git --git-dir=$HOME/dotfiles/ --work-tree=$HOME'
 
+alias note='nano --operatingdir=$HOME/Documents'
+
 ### PROMPT ###
 
 eval "$(starship init bash)"
